@@ -58,7 +58,7 @@
         <nav>
             <ul class="fancyNav">
                 <li id="home"><a href="#home" class="homeIcon">Home</a></li>
-                <li id="news"><a href="#news" class="cargaIcon" class="textmenu"> Carga </a></li>
+                <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
                 <li id="about"><a href="#about">About us</a></li>
                 
             </ul>
