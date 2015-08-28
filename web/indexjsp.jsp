@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="css/slid/dist/gallery.prefixed.css"/>
         <link rel="stylesheet" href="css/slid/dist/gallery.theme.css"/>
         <link rel="stylesheet" href="css/botoes/menuprincipal.css"/>
-        
+        <link rel="stylesheet" href="css/botoes/1menu.css"/>
     <head>
     <body>
 
@@ -52,8 +52,19 @@
     </div>
     </div>
     </div>
+<body>
 
-
-    
-    <body>
+       
+        <nav>
+            <ul class="fancyNav">
+                <li id="home"><a href="#home" class="homeIcon">Home</a></li>
+                <li id="news"><a href="#news" class="cargaIcon" class="textmenu"> Carga </a></li>
+                <li id="about"><a href="#about">About us</a></li>
+                
+            </ul>
+        </nav>
+        
+        
+</body>
+        
 </html>
