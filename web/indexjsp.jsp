@@ -25,9 +25,11 @@
 
    <!-- Inicio o SLID (By> lucas) -->
    <!--        --> 
-   <h5>&nbsp;</h5>
-    <img src="imagens/LG.png" width="744" height="109" alt="LG"/>
+   <img src="imagens/oi.PNG" width="800" height="364" alt="oi"/>
 
+
+
+  
     <div class="gallery items-3">
     <div class="gallery autoplay items-5">
     <div id="item-1" class="control-operator"></div>

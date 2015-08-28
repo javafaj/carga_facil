@@ -10,11 +10,12 @@ Iniciando as classes referente ao esqueleto do website.
 body {
     margin: 0;
     padding:0;
-    background-image: url(../..//imagens/black-world-map-wallpaper-hd1.jpg);
+    background-image: url(../..//imagens/estrada.jpg);
+    background-size: 100%;
     text-align: center;    
   }
   #cabecalho {
- background-image: url(teste.jpg)no-repeat;
+ background-image: url(teste.jpg);
  background-repeat: no-repeat;
  background-position: left top;
  font-size: 36px;
