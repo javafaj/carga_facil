@@ -30,8 +30,9 @@
 
         <nav>
             <ul class="fancyNav">
-                <li id="home"><a href="indexjsp.jsp" class="homeIcon">Home</a></li>
-                <li id="vcargas"><a href="#" class="btnvcargas">Verificar Cargas</a></li>
+                <li id="home"><a href="#home" class="homeIcon">Home</a></li>
+                <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
+                <li id="about"><a href="#about">About us</a></li>
                 
             </ul>
         </nav>
@@ -66,9 +67,25 @@
     </div>
 <body>
 
-       
-     
-        
+    <!-- chamando id"esquerdaDiv" e colocando o menu ao lado esquerdo 1 (By> lucas) -->
+    <table id="esquerdaDiv" >
+    <tr>
+    <td>
+
+        <nav>            
+            <ul class="fancyNav">
+                <li id="home"><a href="#home" class="homeIcon">Home</a></li>
+                <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
+                <li id="about"><a href="#about">About us</a></li>
+                
+            </ul>
+        </nav>
+             
+    </td>
+    </tr>
+    </table>
+    <!-- Fim (By> lucas) -->
+         
 </body>
         
 </html>
