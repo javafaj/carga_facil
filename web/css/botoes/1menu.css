@@ -142,7 +142,7 @@ and open the template in the editor.
 	color: #5d5d5d;
 	display: inline-block;
 	font: 30px/1 Lobster,Arial,sans-serif;
-	padding: 12px 15px 14px;
+	padding: 20px 15px 20px;
 	position: relative;
         text-align:right;
         width: 130px;
@@ -159,7 +159,12 @@ and open the template in the editor.
 
 .fancyNav a.cargaIcon{
 	background:url('img/Truck-50.png') no-repeat;
-        
         font-weight: 20px;
+}
+
+.fancyNav a.btnvcargas{
+	background:url('img/Truck-50.png') no-repeat;
+        padding: 20px 80px 20px;
+        text-align: left; 
 }
 

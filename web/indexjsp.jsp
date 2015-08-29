@@ -30,9 +30,8 @@
 
         <nav>
             <ul class="fancyNav">
-                <li id="home"><a href="#home" class="homeIcon">Home</a></li>
-                <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
-                <li id="about"><a href="#about">About us</a></li>
+                <li id="home"><a href="indexjsp.jsp" class="homeIcon">Home</a></li>
+                <li id="vcargas"><a href="#" class="btnvcargas">Verificar Cargas</a></li>
                 
             </ul>
         </nav>
