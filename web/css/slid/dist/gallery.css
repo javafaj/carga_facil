@@ -14,11 +14,11 @@
   opacity: 1;
 }
 .gallery .item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: relative; top: 10px; 
+  top: 150px;
+  left: 150px;
+  width: 330px;
+  height: 500px;
   pointer-events: none;
   opacity: 0;
   transition: opacity .5s;
@@ -30,6 +30,7 @@
   pointer-events: none;
   opacity: 0;
   animation: none;
+ 
 }
 .gallery .control-operator:target ~ .controls .control-button {
   animation: none;
@@ -75,6 +76,7 @@
 .gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
   pointer-events: auto;
   opacity: 1;
+   
 }
 
 .items-2.autoplay .control-button {
@@ -132,6 +134,7 @@
 .gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
   pointer-events: auto;
   opacity: 1;
+ 
 }
 .gallery .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
   pointer-events: auto;

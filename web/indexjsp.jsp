@@ -25,10 +25,14 @@
 
    <!-- Inicio o SLID (By> lucas) -->
    <!--        --> 
+   <div>
    <img src="imagens/oi.PNG" width="800" height="364" alt="oi"/>
-
-
-        <nav>
+   </div>
+   
+    <!-- chamando id"esquerdaDiv" e colocando o menu ao lado esquerdo 1 (By> lucas) -->
+   <!-- <div id="esquerdaDiv" >-->
+    <div id="esquerdaDiv">
+            <nav>            
             <ul class="fancyNav">
                 <li id="home"><a href="#home" class="homeIcon">Home</a></li>
                 <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
@@ -36,26 +40,50 @@
                 
             </ul>
         </nav>
-        
+     </div>
+             
+   <!-- </div>-->
+   <!-- chamando id"esquerdaDiv" e colocando o menu ao lado esquerdo 1 (By> lucas) fim -->
+         
+
   
-    <div class="gallery items-3">
-    <div class="gallery autoplay items-5">
+ <!--  
+    <div class="gallery autoplay items-5"> !-->
+ <div class="gallery items-3">
     <div id="item-1" class="control-operator"></div>
     <div id="item-2" class="control-operator"></div>
-    <div id="item-3" class="control-operator"></div>
+   <div id="item-3" class="control-operator"></div>
    <!-- IMG 1 (By> lucas) -->
     <figure class="item">
       <div class="carousel-caption">
       <h3>TEXTO SOBRE A IMAGEM 1</h3>
       </div> 
     </figure>
- <!-- IMG 2 (By> lucas) -->
-    <figure class="item">
-    <h3>TEXTO SOBRE A IMAGEM 2</h3>
+   
+   <figure class="item">
+      <div class="carousel-caption">
+      <h3>TEXTO SOBRE A IMAGEM 2</h3>
+      </div> 
     </figure>
- <!-- IMG 3 (By> lucas) -->
+   
+   
+   
+   
+ <!-- IMG 2 (By> lucas) 
+    <figure class="item">
+     <div class="carousel-caption">
+     
+         <h3>TEXTO SOBRE A IMAGEM 2</h3>
+     
+     </div>
+    </figure>
+ <!-- IMG 3 (By> lucas) 
     <figure class="item">       
-    <h3>TEXTO SOBRE A IMAGEM 3</h3>      
+    <div class="carousel-caption">
+    
+        <h3>TEXTO SOBRE A IMAGEM 3</h3>
+    
+    </div>     
     </figure>
   <!-- chamando os botões que fica em baixo SLID 1 (By> lucas) -->
     <div class="controls">
@@ -63,29 +91,7 @@
     <a href="#item-2" class="control-button">•</a>
     <a href="#item-3" class="control-button">•</a>    
     </div>
-    </div>
-    </div>
-<body>
-
-    <!-- chamando id"esquerdaDiv" e colocando o menu ao lado esquerdo 1 (By> lucas) -->
-    <table id="esquerdaDiv" >
-    <tr>
-    <td>
-
-        <nav>            
-            <ul class="fancyNav">
-                <li id="home"><a href="#home" class="homeIcon">Home</a></li>
-                <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
-                <li id="about"><a href="#about">About us</a></li>
-                
-            </ul>
-        </nav>
-             
-    </td>
-    </tr>
-    </table>
-    <!-- Fim (By> lucas) -->
-         
-</body>
+  </div>
+  <!--  </div> !-->
         
 </html>

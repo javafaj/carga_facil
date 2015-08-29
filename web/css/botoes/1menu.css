@@ -154,6 +154,11 @@ and open the template in the editor.
 
 #esquerdaDiv {
 float:left;
+ position: relative; top: 65px;
+}
+#logo{
+    position: relative; right: 30px; left: 300px;
+    
 }
 
 .fancyNav a.homeIcon{
