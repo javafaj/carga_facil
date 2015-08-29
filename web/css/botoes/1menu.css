@@ -139,10 +139,10 @@ and open the template in the editor.
 /* Styling the anchor elements */
 
 .fancyNav li a{
-	color: #5d5d5d;
+       	color: #5d5d5d;       
 	display: inline-block;
-	font: 30px/1 Lobster,Arial,sans-serif;
-	padding: 12px 15px 14px;
+	font: 30px/1 Lobster,Arial,sans-serif;       
+	padding:12px 15px 14px;
 	position: relative;
         text-align:right;
         width: 130px;
@@ -150,6 +150,10 @@ and open the template in the editor.
 	z-index:2;
 	text-decoration:none !important;
 	white-space:nowrap;
+}
+
+#esquerdaDiv {
+float:left;
 }
 
 .fancyNav a.homeIcon{

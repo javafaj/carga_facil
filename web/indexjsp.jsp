@@ -59,8 +59,12 @@
     </div>
 <body>
 
-       
-        <nav>
+    <!-- chamando id"esquerdaDiv" e colocando o menu ao lado esquerdo 1 (By> lucas) -->
+    <table id="esquerdaDiv" >
+    <tr>
+    <td>
+
+        <nav>            
             <ul class="fancyNav">
                 <li id="home"><a href="#home" class="homeIcon">Home</a></li>
                 <li id="news"><a href="#news" class="cargaIcon">Carga</a></li>
@@ -68,8 +72,12 @@
                 
             </ul>
         </nav>
-        
-        
+             
+    </td>
+    </tr>
+    </table>
+    <!-- Fim (By> lucas) -->
+         
 </body>
         
 </html>
